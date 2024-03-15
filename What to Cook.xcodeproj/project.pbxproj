@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D77EB39E2BA48DB300F05311 /* What_to_CookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EB39D2BA48DB300F05311 /* What_to_CookApp.swift */; };
-		D77EB3A02BA48DB300F05311 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EB39F2BA48DB300F05311 /* ContentView.swift */; };
+		D77EB3A02BA48DB300F05311 /* WhatToCook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EB39F2BA48DB300F05311 /* WhatToCook.swift */; };
 		D77EB3A22BA48DB400F05311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EB3A12BA48DB400F05311 /* Assets.xcassets */; };
 		D77EB3A52BA48DB400F05311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EB3A42BA48DB400F05311 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		D77EB39A2BA48DB300F05311 /* What to Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What to Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77EB39D2BA48DB300F05311 /* What_to_CookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_to_CookApp.swift; sourceTree = "<group>"; };
-		D77EB39F2BA48DB300F05311 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D77EB39F2BA48DB300F05311 /* WhatToCook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToCook.swift; sourceTree = "<group>"; };
 		D77EB3A12BA48DB400F05311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77EB3A42BA48DB400F05311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D77EB39D2BA48DB300F05311 /* What_to_CookApp.swift */,
-				D77EB39F2BA48DB300F05311 /* ContentView.swift */,
+				D77EB39F2BA48DB300F05311 /* WhatToCook.swift */,
 				D77EB3A12BA48DB400F05311 /* Assets.xcassets */,
 				D77EB3A32BA48DB400F05311 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D77EB3A02BA48DB300F05311 /* ContentView.swift in Sources */,
+				D77EB3A02BA48DB300F05311 /* WhatToCook.swift in Sources */,
 				D77EB39E2BA48DB300F05311 /* What_to_CookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
