@@ -7,27 +7,9 @@
 
 import SwiftUI
 
-struct ingredient: Identifiable, Hashable {
-    let id: String
-    let title: String
-    let aisle: Aisle
-}
-
-struct recipe: Identifiable, Hashable {
-    let id: String
-    let title: String
-    let ingrients: [ingredient]
-}
-
-enum Aisle {
-    case dairy, spices, baking, produce, meat
-}
-
 final class NetworkManager {
-    func getRecipes() async throws -> [recipe] {
-        [
-            recipe(id: "1", title: "Spaghetti", ingrients: [ingredient(id: "1", title: "Pasta", aisle: .baking)])
-        ]
+    func getRecipes() async throws -> [Recipe] {
+        MockData.mockRecipes
     }
 }
 

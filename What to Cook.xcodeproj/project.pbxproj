@@ -11,6 +11,7 @@
 		D77EB3A02BA48DB300F05311 /* WhatToCook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EB39F2BA48DB300F05311 /* WhatToCook.swift */; };
 		D77EB3A22BA48DB400F05311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EB3A12BA48DB400F05311 /* Assets.xcassets */; };
 		D77EB3A52BA48DB400F05311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EB3A42BA48DB400F05311 /* Preview Assets.xcassets */; };
+		D77EB3AC2BA4959900F05311 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EB3AB2BA4959900F05311 /* DataModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D77EB39F2BA48DB300F05311 /* WhatToCook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToCook.swift; sourceTree = "<group>"; };
 		D77EB3A12BA48DB400F05311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77EB3A42BA48DB400F05311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D77EB3AB2BA4959900F05311 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D77EB39D2BA48DB300F05311 /* What_to_CookApp.swift */,
 				D77EB39F2BA48DB300F05311 /* WhatToCook.swift */,
+				D77EB3AB2BA4959900F05311 /* DataModels.swift */,
 				D77EB3A12BA48DB400F05311 /* Assets.xcassets */,
 				D77EB3A32BA48DB400F05311 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77EB3AC2BA4959900F05311 /* DataModels.swift in Sources */,
 				D77EB3A02BA48DB300F05311 /* WhatToCook.swift in Sources */,
 				D77EB39E2BA48DB300F05311 /* What_to_CookApp.swift in Sources */,
 			);
