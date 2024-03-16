@@ -11,7 +11,7 @@ import SwiftUI
 struct What_to_CookApp: App {
     var body: some Scene {
         WindowGroup {
-            WhatToCook()
+            SearchableBootcamp()
         }
     }
 }
